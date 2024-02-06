@@ -10,5 +10,5 @@ COPY . /app
 # Install the required packages listed in the requirements.txt file
 RUN pip install --no-cache-dir -r requirements.txt
 
-# Specify the command to execute when the container is launched, running the train.py script
+# Specify the command to execute when the container is launched, running the inference.py script
 CMD ["python", "src/inference/inference.py"]

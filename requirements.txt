@@ -1,11 +1,15 @@
-# For data processing and manipulation
+# requirements.txt
+
+# It is used for handling and processing structured data.
 pandas==2.1.3
 
-# For machine learning and model training
+# Used for natural language processing tasks such as tokenization and stemming.
+nltk==3.8.1
+
+# It provides various machine learning algorithms and tools for data preprocessing.
 scikit-learn==1.4.0
 
-# For working with HTTP requests
+# Used for making HTTP requests to fetch data from external sources.
 requests==2.31.0
 
-# For natural language processing
-nltk==3.8.1
+
