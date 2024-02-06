@@ -1,0 +1,27 @@
+{
+    "config": {
+        "seed": 42,
+        "data_directory": "data",
+        "models_directory": "models",
+        "results_directory": "results",
+        "outputs_directory": "outputs"
+    },
+    "data_processing": {
+        "train_data_url": "https://static.cdn.epam.com/uploads/583f9e4a37492715074c531dbd5abad2/ds/final_project_train_dataset.zip",
+        "inference_data_url": "https://static.cdn.epam.com/uploads/583f9e4a37492715074c531dbd5abad2/ds/final_project_test_dataset.zip",
+        "prepare_train_data": true,
+        "train_file_to_preparation": "train.csv",
+        "prepare_inference_data": true,
+        "inference_file_to_preparation": "inference.csv"
+    },
+    "training": {
+        "model_name": "review_model.pkl",
+        "file_name": "processed_train.csv",
+        "test_size": 0.2,
+        "regularization_parameter": 2.6
+    },
+    "inference": {
+        "model_name": "review_model.pkl",
+        "input_file_name": "processed_inference.csv"
+    }
+}

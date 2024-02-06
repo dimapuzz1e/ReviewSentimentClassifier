@@ -1,0 +1,11 @@
+# For data processing and manipulation
+pandas==2.1.3
+
+# For machine learning and model training
+scikit-learn==1.4.0
+
+# For working with HTTP requests
+requests==2.31.0
+
+# For natural language processing
+nltk==3.8.1
