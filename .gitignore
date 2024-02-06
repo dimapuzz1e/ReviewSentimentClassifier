@@ -1,0 +1,26 @@
+# Ignore Python bytecode cache files
+__pycache__/    
+
+# Ignore compiled Python files
+*.py[cod]      
+
+# Ignore Visual Studio Code settings
+.vscode       
+
+# Ignore data directory
+data/           
+
+# Ignore models directory
+models/         
+
+# Ignore results directory
+results/
+
+# Ignore outputs directory
+outputs/        
+
+# Ignore CSV files
+*.csv           
+
+# Ignore Pickle files
+*.pkl           
